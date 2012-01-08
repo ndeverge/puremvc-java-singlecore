@@ -5,10 +5,10 @@
  PureMVC - Copyright(c) 2006-10 Futurescale, Inc., Some rights reserved. 
  Your reuse is governed by the Creative Commons Attribution 3.0 License
 --------------------------------------------------------------------------
-Release Date: 11/11/2010
+Release Date: 08/01/2012
     Platform: Java
      Version: 1
-    Revision: 0
+    Revision: 1
       Author: 
             : Frederic Saunier <frederic.saunier@puremvc.org>
             : Donald Stinchfield <donald.stinchfield@puremvc.org>
@@ -18,6 +18,9 @@ Release Date: 11/11/2010
             : Jan Grimmer <Jan.Grimmer@cimt-ag.de>
      License: Creative Commons Attribution 3.0 License
 --------------------------------------------------------------------------
+
+1.1 - Now Proxy.onRemove() method is called when removing a proxy.
+
 1.0 - The framework has been adapted from the multicore version. It fixes the
       lack off onRegister, onRemove methods of Mediators and Proxy classes and
       improves GWT compatibility. It also has been tested successfully against
