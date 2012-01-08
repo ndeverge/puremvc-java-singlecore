@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="textorm-pc" name="org.puremvc.java.patterns.command.MacroCommandTest" tests="1" time="0.046" timestamp="2012-01-08T15:04:14">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="lib.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="build.lib" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/lib" />
+    <property name="os.name" value="Windows XP" />
+    <property name="junitresults" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/puremvc-java-tests/junitoutput" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_20\jre\classes" />
+    <property name="TODAY" value="January 8 2012" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145" />
+    <property name="java.runtime.version" value="1.6.0_20-b02" />
+    <property name="user.name" value="Administrateur" />
+    <property name="debug" value="off" />
+    <property name="reports" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/reports" />
+    <property name="build.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build" />
+    <property name="user.language" value="fr" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_20\jre\bin" />
+    <property name="doc.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/doc" />
+    <property name="ant.project.name" value="puremvc-java" />
+    <property name="DSTAMP" value="20120108" />
+    <property name="java.version" value="1.6.0_20" />
+    <property name="build.tests" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/puremvc-java-tests" />
+    <property name="version" value="1.0" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="build.doc" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/doc" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_20\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="build.src" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/puremvc-java/src" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="FR" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_20\jre" />
+    <property name="dist.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/dist" />
+    <property name="name.tests" value="puremvc-java-tests" />
+    <property name="optimize" value="on" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="build.dist" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/dist" />
+    <property name="ant.file" value="C:\eclipse\workspace\PureMVC_Java_SingleCore\build.xml" />
+    <property name="os.version" value="5.1" />
+    <property name="build.tests.src" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/puremvc-java-tests/src" />
+    <property name="junit.lib" value="../PureMVC_Java_SingleCoreTest//lib/junit-4.8.2.jar" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="16.3-b01" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="packages" value="org.*" />
+    <property name="build.dest" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/puremvc-java/classes" />
+    <property name="bin-dist.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/dist/puremvc-java-1.0-bin/" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/scripts/" />
+    <property name="user.home" value="C:\Documents and Settings\Administrateur" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="doc-dist.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/dist/puremvc-java-1.0-doc/" />
+    <property name="junit.dir" value="../PureMVC_Java_SingleCoreTest//lib" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_20\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Program Files\NVIDIA Corporation\PhysX\Common;%CommonProgramFiles%\Microsoft Shared\Windows Live;C:\Ruby192\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Fichiers communs\Ulead Systems\MPEG;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Fichiers communs\DivX Shared\;D:\SYSTEM\FILE MANAGEMENT\VERSIONING\TortoiseSVN\bin;C:\Program Files\Fichiers communs\Teleca Shared;C:\Program Files\Git\cmd;C:\Program Files\Fichiers communs\Microsoft Shared\Windows Live;C:\Program Files\android-sdk_r06;C:\Program Files\android-sdk_r06\tools;C:\Program Files\Java\jdk1.6.0_20\bin;C:\Program Files\Git\bin;;C:\eclipse;" />
+    <property name="name" value="puremvc-java" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\eclipse\workspace\PureMVC_Java_SingleCoreTest\lib\junit-4.8.2.jar;C:\eclipse\workspace\PureMVC_Java_SingleCore\build\puremvc-java\classes;C:\eclipse\workspace\PureMVC_Java_SingleCore\build\puremvc-java-tests\classes;C:\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-junit.jar" />
+    <property name="year" value="2012" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+    <property name="build.tests.dest" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/puremvc-java-tests/classes" />
+    <property name="TSTAMP" value="1604" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 3" />
+    <property name="eclipse.pdebuild.home" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/./" />
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="Name" value="PureMVC" />
+    <property name="source-dist.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/dist/puremvc-java-1.0-src/" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="x86" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_20\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="tests.dir" value="../PureMVC_Java_SingleCoreTest/" />
+    <property name="user.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="ant.file.puremvc-java" value="C:\eclipse\workspace\PureMVC_Java_SingleCore\build.xml" />
+    <property name="deprecation" value="on" />
+    <property name="basedir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore" />
+    <property name="codecoverage.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/build/coverage" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="build.compiler" value="modern" />
+    <property name="tests.src" value="../PureMVC_Java_SingleCoreTest//src" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="C:\eclipse\workspace\PureMVC_Java_SingleCore/src" />
+    <property name="junit" value="junit-4.8.2.jar" />
+  </properties>
+  <testcase classname="org.puremvc.java.patterns.command.MacroCommandTest" name="testMacroCommandExecute" time="0.015" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
