@@ -1,11 +1,12 @@
-# PureMVC Java port by Frederic Saunier <frederic.saunier@puremvc.org>
+# PureMVC Java port by Frederic Saunier (<frederic.saunier@puremvc.org>)
  
  Adapted from sources of different authors
  
- PureMVC - Copyright(c) 2006-10 Futurescale, Inc., Some rights reserved. 
+ PureMVC - Copyright(c) 2006-10 Futurescale, Inc., Some rights reserved.<br>
  Your reuse is governed by the Creative Commons Attribution 3.0 License
---------------------------------------------------------------------------
-Release Date: 18/04/2012
+
+    --------------------------------------------------------------------------
+    Release Date: 18/04/2012
     Platform: Java
      Version: 1
     Revision: 2
@@ -18,7 +19,7 @@ Release Date: 18/04/2012
             : Jan Grimmer <Jan.Grimmer@cimt-ag.de>
             : Nicolas Deverge <ndeverge@ekito.fr>
      License: Creative Commons Attribution 3.0 License
---------------------------------------------------------------------------
+    --------------------------------------------------------------------------
 
 ## Continuous integration
 
