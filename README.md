@@ -21,6 +21,31 @@
      License: Creative Commons Attribution 3.0 License
     --------------------------------------------------------------------------
 
+## Maven dependency
+
+Add this in your ``pom.xml`` file:
+
+    <dependencies>
+        ...
+        <dependency>
+	    <groupId>org.puremvc</groupId>
+	    <artifactId>puremvc-java</artifactId>
+	    <version>1.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        ...
+        <repository>
+            <id>ekito-public-snapshots</id>
+            <url>https://raw.github.com/Ekito/maven-repo/master/snapshots</url>
+        </repository>
+        <repository>
+            <id>ekito-public-releases</id>
+            <url>https://raw.github.com/Ekito/maven-repo/master/releases</url>
+        </repository>
+    </repositories>
+
 ## Continuous integration
 
 The project is automatically built by [BuildHive](https://buildhive.cloudbees.com/job/ndeverge/job/puremvc-java-singlecore/):
