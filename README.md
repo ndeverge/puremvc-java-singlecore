@@ -1,4 +1,4 @@
-PureMVC Java port by Frederic Saunier <frederic.saunier@puremvc.org>
+# PureMVC Java port by Frederic Saunier <frederic.saunier@puremvc.org>
  
  Adapted from sources of different authors
  
@@ -19,6 +19,15 @@ Release Date: 18/04/2012
             : Nicolas Deverge <ndeverge@ekito.fr>
      License: Creative Commons Attribution 3.0 License
 --------------------------------------------------------------------------
+
+## Continuous integration
+
+The project is automatically built by [BuildHive](https://buildhive.cloudbees.com/job/ndeverge/job/puremvc-java-singlecore/):
+
+[![Build Status](https://buildhive.cloudbees.com/job/ndeverge/job/puremvc-java-singlecore/badge/icon)](https://buildhive.cloudbees.com/job/ndeverge/job/puremvc-java-singlecore/)
+
+## History
+
 1.2 - Moved to Maven.
 
 1.1 - Now Proxy.onRemove() method is called when removing a proxy.
